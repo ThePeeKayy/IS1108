@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 # Initialize and load resources
-HF_API_KEY = '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'
+HF_API_KEY = ''
 
 # Define the Hugging Face generation API URL and headers
 GEN_API_URL = "https://api-inference.huggingface.co/models/Qwen/Qwen2.5-72B-Instruct"

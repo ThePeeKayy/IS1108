@@ -50,7 +50,7 @@ function ChatPage() {
       <p className='pl-5 text-teal-100 font-bold text-[33px]'>CalmConnect</p>
     </div>
     <div className='flex flex-row sm:px-6 px-3 sm:gap-x-10 gap-x-2'>
-      <FaUserAlt className='mt-1' size={38} color='white' />
+      <FaUserAlt className='mt-1 hidden sm:block' size={38} color='white' />
       <RiMentalHealthLine onClick={()=>setOpen(true)} size={42} color='white' />
     </div>
   </div>

@@ -69,7 +69,7 @@ function ChatPage() {
             <Image width={50} height={50} className="w-[50px] h-[50px]" src="/bot.png" alt=""/>
           )}
           <span
-            className={`${message.role === 'user' ? 'bg-gray-200' : 'bg-gray-300'} rounded-md ml-2 px-4 p-2`}
+            className={`${message.role === 'user' ? 'bg-gray-200' : 'bg-gray-300'} text-black rounded-md ml-2 px-4 p-2`}
           >
             {message.content}
           </span>
